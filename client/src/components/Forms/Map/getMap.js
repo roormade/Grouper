@@ -13,7 +13,7 @@ const MapContainer = styled.div`
 
 const Mapbox = () => {
   useEffect(() => {
-    mapboxgl.accessToken = 'pk.eyJ1IjoiYWlobiIsImEiOiJjbGdoZHNlZjYwMDhkM2VwNmd3bW1wNzd5In0._DT_TeWGHA9dppRpcEFj2Q';
+    mapboxgl.accessToken = process.env.MB_KEY;
     const map = new mapboxgl.Map({
       container: 'map',
       // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
