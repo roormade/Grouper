@@ -44,7 +44,7 @@ function Home() {
           <Itineraries />
         </Tab>
         <Tab eventKey="map" title="Map">
-          <Mapbox />
+          {/* <Mapbox /> */}
         </Tab>
         <Tab eventKey="places" title="Places">
           <YelpPlaces />
